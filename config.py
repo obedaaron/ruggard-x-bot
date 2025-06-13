@@ -1,6 +1,5 @@
 import tweepy
 
-# HARDCODED CREDENTIALS (TEMPORARY)
 BEARER_TOKEN = "your_bearer_token"
 CONSUMER_KEY = "your_consumer_key"
 CONSUMER_SECRET = "your_consumer_secret"
