@@ -16,7 +16,7 @@ processed_tweets = set()
 
 def find_trigger_mentions():
     print("Checking for mentions...")
-    mentions = client.get_users_mentions(id=api.me().id, max_results=10)
+    mentions = client.get_users_mentions(id=api.verify_credentials().id, max_results=10)
     if mentions.data is None:
         return []
 
